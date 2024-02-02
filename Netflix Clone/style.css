@@ -1,0 +1,590 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Calistoga", serif;
+}
+
+body {
+  background-color: black;
+  color: #fff;
+}
+
+.img {
+  width: 100%;
+  height: 100vh;
+  background-image: url(IN-en-20231225-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+  object-fit: cover;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 10px solid gray;
+}
+
+.color {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-color: black;
+  opacity: 0.8;
+  border-bottom: 10px solid gray;
+}
+
+.info {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+}
+
+.logo img {
+  width: 200px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.input-button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.input-button input {
+  padding: 5px 10px;
+  text-align: left;
+  font-size: 14px;
+  outline: none;
+  background-color: black;
+  opacity: 0.5;
+  border: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.input-button button {
+  background-color: red;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 8px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: ease-in 0.5s;
+}
+
+.input-button button:hover {
+  background-color: darkred;
+}
+
+#infomation-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vh;
+  gap: 20px;
+}
+
+#infomation-section h1 {
+  font-size: 3.5rem;
+}
+
+#infomation-section h4 {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.infomation-input-section {
+  display: flex;
+  gap: 15px;
+}
+
+.infomation-input-section input {
+  width: 400px;
+  height: 50px;
+  text-align: left;
+  padding: 15px 20px;
+  outline: none;
+  border: none;
+  border: 2px solid darkgray;
+  font-size: 26px;
+  border-radius: 5px;
+  background-color: black;
+  opacity: 0.4;
+  color: #fff;
+}
+
+.infomation-input-section button {
+  width: 180px;
+  height: 50px;
+  border-radius: 7px;
+  font-size: 19px;
+  color: #fff;
+  background-color: red;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: ease-in 0.5s;
+}
+
+.infomation-input-section button:hover {
+  background-color: darkred;
+}
+
+@media screen and (max-width: 1420px) {
+  #infomation-section {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  #infomation-section h1 {
+    font-size: 66px;
+    line-height: 60px;
+    letter-spacing: 1px;
+  }
+  #infomation-section h4 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .infomation-input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 40px;
+  }
+
+  .infomation-input-section input {
+    width: 460px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #infomation-section {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  #infomation-section h1 {
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 1px;
+  }
+  #infomation-section h4 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .infomation-input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 40px;
+  }
+
+  .infomation-input-section input {
+    width: 460px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  #infomation-section {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  #infomation-section h1 {
+    font-size: 22px;
+    line-height: 50px;
+    letter-spacing: 1px;
+  }
+  #infomation-section h4 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .infomation-input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 40px;
+  }
+
+  .infomation-input-section input {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  #infomation-section {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  #infomation-section h1 {
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 1px;
+  }
+  #infomation-section h4 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .infomation-input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 40px;
+  }
+
+  .infomation-input-section input {
+    width: 460px;
+  }
+}
+
+#second-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 10px solid darkgray;
+  padding: 20px;
+}
+
+.second-left {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.second-left h1 {
+  font-size: 66px;
+  word-spacing: 15px;
+  text-align: center;
+}
+
+.second-left p {
+  font-size: 18px;
+  text-align: center;
+  word-spacing: 6px;
+}
+
+.second-right {
+  overflow: hidden;
+}
+
+.second-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#third-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 10px solid darkgray;
+  padding: 20px;
+}
+
+.third-left {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.third-left h1 {
+  font-size: 66px;
+  word-spacing: 15px;
+  text-align: left;
+}
+
+.third-left p {
+  font-size: 22px;
+  text-align: left;
+  word-spacing: 6px;
+}
+
+.third-right {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.third-left {
+  overflow: hidden;
+}
+
+.third-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*forth-section*/
+
+#forth-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 10px solid darkgray;
+  padding: 20px;
+}
+
+.forth-left {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.forth-left h1 {
+  font-size: 66px;
+  word-spacing: 15px;
+  text-align: center;
+}
+
+.forth-left p {
+  font-size: 22px;
+  text-align: center;
+  word-spacing: 6px;
+}
+
+.forth-left {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.forth-right {
+  overflow: hidden;
+}
+
+.forth-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Five-section*/
+
+#five-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 10px solid darkgray;
+  padding: 20px;
+}
+
+.five-left {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.five-left h1 {
+  font-size: 66px;
+  word-spacing: 15px;
+  text-align: left;
+}
+
+.five-left p {
+  font-size: 22px;
+  text-align: left;
+  word-spacing: 6px;
+}
+
+.five-right {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.five-left {
+  overflow: hidden;
+}
+
+.five-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.feq {
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.feq h1 {
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+.feq-box {
+  width: 100%;
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.feq-box-ingo {
+  background-color: rgb(53, 53, 53);
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.feq-box-ingo:hover {
+  background-color: gray;
+}
+
+
+@media screen and (max-width:800px) {
+    .feq-box-ingo{
+        width: 80%;
+    }
+
+}
+@media screen and (max-width:430px) {
+    .feq-box-ingo{
+        width: 80%;
+        
+    }
+.feq-box-ingo span{
+    font-size: 5vw;
+}
+}
+
+.text-input{
+    width: 100%;
+   text-align: center;
+margin-top: 40px;
+border-bottom: 10px solid gray;
+padding: 20px 0px;
+}
+
+.text-input p{
+  font-size: 1.3vw;  
+}
+
+.text-input input{
+    width: 350px;
+    height: 50px;
+    margin-top: 30px;
+    padding: 5px 10px;
+  text-align: left;
+  font-size: 14px;
+  outline: none;
+  background-color: black;
+  opacity: 0.5;
+  border: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.text-input button{
+    width: 150px;
+    height: 45px;
+    background-color: red;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 8px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: ease-in 0.5s;
+
+}
+
+
+.footer{
+    width: 100%; 
+    height: 300px;
+padding: 20px 10px;
+}
+
+.footer p{
+    text-align: left;
+    margin-left: 11rem;
+    color: gray;
+}
+
+
+.footer-text{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+.footer1{
+   display: flex; 
+   flex-direction: column;
+   gap: 10px;
+}
+
+.footer1 a{
+    text-decoration: none;
+    color:gray;
+    font-weight: 400;
+    text-decoration: underline;
+}
+

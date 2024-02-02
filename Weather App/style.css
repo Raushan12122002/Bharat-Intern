@@ -1,0 +1,93 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #222;
+}
+
+.card{
+ width: 90%;
+max-width: 470px;
+background:linear-gradient(135deg,#00feba,#5b548a); 
+color: #fff;
+margin: 100px auto 0;
+border-radius: 20px;
+padding: 40px 35px;
+text-align: center;
+}
+
+.search{
+  width: 100%; 
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+}
+
+.search input{
+border: none;
+outline: none;
+padding: 10px 25px;
+border-radius: 30px;
+height: 60px;
+flex: 1;
+margin-right: 16px;
+font-size: 18px;
+background-color: #ebfffc;
+}
+
+.search button{
+    border: none;
+outline: none;
+background-color: #ebfffc;
+border-radius: 50px;
+width: 60px;
+height: 60px;
+cursor: pointer;
+}
+
+.search button img{
+width: 22px;
+}
+
+.wheater-icon{
+    width: 200px;
+    margin-top: 5px;
+}
+
+.temp{
+    font-size:66px;
+}
+
+.city-name{
+font-size: 64px;
+}
+
+
+.detials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.col img{
+    width:60px;
+}
+
+
+/*.weather{
+    display: none;
+}
+
